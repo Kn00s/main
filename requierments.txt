@@ -1,0 +1,12 @@
+import webbrowser
+from kivymd.app import MDApp
+from kivymd.uix.screen import Screen
+from kivy.lang import Builder
+from kivymd.uix.label import MDLabel
+from kivymd.uix.button import MDRectangleFlatButton, MDIconButton
+from kivy.core.window import Window
+from bidi.algorithm import get_display
+from kivy.uix.image import Image
+from arabic_reshaper import reshape
+from kivymd.uix.screenmanager import ScreenManager
+import subprocess  
